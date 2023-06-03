@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logout</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body onload="getCountries()">
+    <div id="formulario">
+      
+      <label for="name">Nombre</label>
+      <input type="text" name=" name" id="name" /><br />
+      
+      <label for="mail">Email</label>
+      <input type="email" name="mail" id="mail" /><br />
+      
+      <label for="countries">Paises</label>
+      <select name="countries" id="countries">
+    
+      </select>
+
+      <label for="password1">Contraseña</label>
+      <input type="password" name="password1" id="password1" /><br />
+      
+      <label for="password2">Ingresar otra vez</label>
+      <input type="password" name="password2" id="password2" /><br />
+      
+
+      <button onclick="verify_password()">Registrar</button>
+      <button onclick="location.href='login.html'">Volver</button>
+
+
+    
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
